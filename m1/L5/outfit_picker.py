@@ -40,15 +40,15 @@ else:
 
 wind_speed = int(input("enter wind speed MPH: "))
 if wind_speed > 30:
-    wind_speed = "yes"
+    mph = "yes"
 else:
-    wind_speed = "no"
+    mph = "no"
 
 print("===== WEATHER OUTFIT PICKER =====")
 print("Temperature: ", temp)
 print("Outfit Chosen: ", outfit)
 print("Raining: ", raining)
-print("Windbreaker Needed: ", wind_speed)
+print("Windbreaker Needed: ", mph)
 print("===================================")
 # PART 2: Decide between a jacket and a t-shirt
 
