@@ -1,7 +1,7 @@
 lives = 5
 secret_number = 27
 
-print("Number guessing game")
+print("Number guessing game ")
 print("guesses left: ", lives)
 guess = int(input("Enter your guess in the number: "))
 
@@ -21,4 +21,4 @@ while lives > 0:
         if lives > 1:
             print("guesses left: ", lives)
             guess = int(input("Enter your guess in the number: "))
-            if guess = 
+            
