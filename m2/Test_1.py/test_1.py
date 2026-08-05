@@ -18,7 +18,6 @@ while lives > 0:
         else:
             print("=== You Lose ===")
         lives = lives - 1
-        if lives > 1:
-            print("guesses left: ", lives)
-            guess = int(input("Enter your guess in the number: "))
+        print("guesses left: ", lives)
+        guess = int(input("Enter your guess in the number: "))
             
